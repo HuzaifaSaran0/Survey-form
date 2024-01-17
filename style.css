@@ -1,0 +1,134 @@
+body {
+    background-image: linear-gradient(115deg,
+            rgba(58, 58, 158, 0.4),
+            rgba(136, 136, 206, 0.3)),
+        url(https://e1.pxfuel.com/desktop-wallpaper/777/988/desktop-wallpaper-picsart-editing-best-picsart-thumbnail.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+h1,h3 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+}
+
+.parent {
+    /* background-color: rgb(20, 11, 10,25); */
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.child {
+    width: 700px;
+    background-color: rgba(22, 25, 32, 0.726);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+}
+
+.child>* {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+.Input {
+    margin-left: 8px;
+    margin-top: 5px;
+    font-size: large;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-right: 40px;
+    width: 90%;
+    height: 37px;
+}
+.Option {
+    margin-left: 8px;
+    padding-left: 10px;
+    font-size: large;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 93%;
+    height: 41px;
+}
+@media(max-width:550px){
+    .Input{
+        width: 84%;
+    }
+    .Option {
+        width: 88%;
+    }
+}
+.choose{
+    margin-left: 9px;
+}
+
+
+
+.titles {
+    /* background-color: rgb(255, 255, 255); */
+    margin-bottom: 35px;
+    padding-left: 5px;
+}
+
+.last {
+    margin-top: 5px;
+    /* padding-top: 5px; */
+}
+label{
+    margin-left: 7px;
+}
+
+.box {
+    justify-self: start;
+    width: 28px;
+    height: 20px;
+}
+
+.circle {
+    align-items: flex-start;
+    width: 20px;
+    height: 18px;
+
+}
+.circleparent{
+    display: flex;
+    flex-direction: column;
+   
+}
+.boxes{
+
+}
+.choose input {
+    justify-items: start;
+}
+
+textarea {
+    margin-left: 8px;
+    border-radius: 5px;
+    height: 170px;
+    width: 91%;
+    resize: vertical;
+}
+
+button {
+    background-color: #03c300;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80px;
+    height: 35px;
+    position: relative;
+    left: 35%;
+    /* align-self: center; */
+}
+
+form {}
