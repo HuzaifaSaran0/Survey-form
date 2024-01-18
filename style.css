@@ -104,9 +104,6 @@ label{
     flex-direction: column;
    
 }
-.boxes{
-
-}
 .choose input {
     justify-items: start;
 }
@@ -131,4 +128,3 @@ button {
     /* align-self: center; */
 }
 
-form {}
